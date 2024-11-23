@@ -10,7 +10,7 @@ const Page = () => {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={{ paddingBottom: 40 }}>
         <Categories />
-        <Text style={styles.header}>Top picks in your neighbourhood.</Text>
+        <Text style={styles.header}>Top picks in your neighbourhood</Text>
         <Restaurants />
         <Text style={styles.header}>Offers near you</Text>
         <Restaurants />
